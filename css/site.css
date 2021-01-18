@@ -1,0 +1,118 @@
+html body{
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  font-family: Helvetica, sans-serif;
+}
+  .container{
+    display: flex;
+}
+ /*width at 100 oercent fills the web-page width*/
+ .title-banner{
+  width: 100%;
+  background-color: #1f2f68;
+  display: flex;
+  justify-content: center;
+}
+
+.image{
+  display: flex;
+  max-height: 150px;
+}
+
+.site-nav {
+  text-align: center;
+  padding-left: 20px;
+
+}
+
+.main-title{
+  text-align: center;
+}
+  .main-area{
+    flex: 3;
+    display:flex;
+    flex-direction: column;
+    order: 1;
+    max-height: 100%;
+    padding: 5px;
+  }
+
+  .main-title{ 
+    text-align: center;
+    padding-top: 35px;
+  }
+
+  p{
+    max-width: 70%;
+    padding-left: 10%;
+  }
+
+  .side-area{
+    max-height: 100%;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    order: 2;
+    padding: 5px;
+  }
+
+ 
+/*navigation layout*/
+.site-nav ul {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+}
+.site-nav li{
+  padding-right: 20px;
+  list-style: none;
+  float: left;
+  visibility: visible!important;
+}
+.site-nav a {
+  color: white;
+}
+
+.logo-main{
+  max-width: 500px;
+  margin: auto;
+  padding: 50px;
+}
+
+li{
+  text-align: center;
+}
+
+.footer{
+  /*position: absolute;*/
+  bottom: 0;
+  width: 100%;
+  height: 100px;
+  background-color: #1f2f68;
+
+}
+
+.footer-text{
+  color:white;
+  text-align: center;
+  padding-top: 30px;
+}
+
+/* escape grouop classes to get away with all evils */
+/*.group:before,
+.group:after{
+    content: "";
+    display: table;
+
+}
+
+.group:after{
+    clear: both;
+}
+
+.group{
+    zoom: 1;
+}*/
